@@ -1,0 +1,26 @@
+<footer></footer>
+
+<ninja-keys></ninja-keys>
+
+<script>
+	import 'ninja-keys'
+
+	const ninja = document.querySelector('ninja-keys')
+
+	if (ninja !== null) {
+		ninja.data = [
+			{
+				id: 'Projects',
+				title: 'Open projects',
+				hotkey: 'ctrl+N',
+				icon: 'apps',
+				section: 'Projects',
+				handler: () => {
+					alert('Your logic here')
+				},
+			},
+		]
+	}
+</script>
+
+<style></style>
