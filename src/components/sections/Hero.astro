@@ -49,7 +49,7 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(' • ')
 					)
 				}
 				{
-					email && (
+					phone && (
 						<a
 							href={`mailto:${phone}`}
 							title={`Llamar a ${name} al ${phone}`}
@@ -124,6 +124,11 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(' • ')
 		object-fit: cover;
 		width: 128px;
 		border-radius: 4px;
+	}
+
+	footer {
+		display: flex;
+		gap: 0.5rem;
 	}
 
 	footer a {

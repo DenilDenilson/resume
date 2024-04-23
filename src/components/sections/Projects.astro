@@ -4,7 +4,7 @@ import Section from '@/components/Section.astro'
 import { projects } from '@cv'
 ---
 
-<Section title="Projects">
+<Section title="Proyectos">
 	<ul>
 		{
 			projects.map(({ url, description, highlights, name, isActive }) => {
@@ -13,7 +13,11 @@ import { projects } from '@cv'
 						<article>
 							<header>
 								<h3>
-									<a href={url} title={`Ver el proyecto ${name}`}>
+									<a
+										href={url}
+										target="_blank"
+										title={`Ver el proyecto ${name}`}
+									>
 										{name}
 									</a>
 									{isActive && <span>&bull;</span>}
@@ -60,6 +64,7 @@ import { projects } from '@cv'
 
 	article a {
 		color: #111;
+		font-weight: 600;
 	}
 
 	article a:hover {

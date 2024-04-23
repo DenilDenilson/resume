@@ -1,12 +1,12 @@
 {
   "basics": {
-    "name": "Denilson Trujillo",
+    "name": "Denilson Trujillo Salazar",
     "label": "Full Stack Engineer enfocado en la creación de productos con gran atención al detalle y rendimiento.",
-    "image": "/me.webp",
+    "image": "/public/me.webp",
     "email": "denildenilsonperu@gmail.com",
     "phone": "+51 933156539",
     "url": "#",
-    "summary": "Bachiller de ingeniería de la UNI. Actualmente soy desarrollador fullstack con react y node js. Vivo en Lima, Perú. He trabajado en diferentes proyectos: desde el desarrollo completo de landing pages hasta la creación de plataformas web para la gestión de empresas.",
+    "summary": "Bachiller de ingeniería física de la UNI. Actualmente soy desarrollador fullstack web y IoT con react y node js. Mi formación en ingeniería física me ha inculcado una mentalidad analítica e integral de comprender en profundidad las tecnologías con las que trabajo. Especializado en la creación de aplicaciones de alto rendimiento, desde el diseño, desarrollo full-stack, y despliegue, estoy comprometido a aprovechar al máximo mi bagaje como ingeniero físico para impulsar soluciones innovadoras en el mundo del desarrollo de software web y IoT.",
     "location": {
       "address": "",
       "postalCode": "15122",
@@ -34,33 +34,12 @@
   },
   "work": [
     {
-      "name": "midudev",
-      "position": "Divulgador sobre Programación Web",
-      "url": "https://twitch.tv/midudev",
-      "startDate": "2021-01-01",
+      "name": "MMJ Smart electronics",
+      "position": "Full Stack Engineer",
+      "url": "https://smartelectronics.com.pe/",
+      "startDate": "2023-08-01",
       "endDate": null,
-      "summary": "Streamer de programación más visto en Español en Twitch. +1 millón de seguidores entre todas mis redes sociales. Reconocido por Google, Microsoft y GitHub por mi impacto en la comunidad de desarrolladores.",
-      "highlights": [
-        "Started the company"
-      ]
-    },
-    {
-      "name": "Adevinta",
-      "position": "Lead Frontend Architect",
-      "url": "https://twitch.tv/midudev",
-      "startDate": "2016-06-01",
-      "endDate": "2022-09-01",
-      "summary": "Lideré una convergencia técnica entre diferentes productos y migramos una arquitectura monolítica a otra más flexible y optimizada. Fomenté buenas prácticas y mejoras en la cultura de rendimiento, además de la entrega rápida de valor a los usuarios.",
-      "highlights": [
-        "Started the company"
-      ]
-    },
-    {
-      "name": "Hubii",
-      "position": "Senior FrontEnd Developer",
-      "startDate": "2011-03-01",
-      "endDate": "2016-05-01",
-      "summary": "Desarrollé una plataforma de noticias geolocalizadas y una API para consumir la información. Escalé los servicios para soportar la carga de más de cientos de miles de peticiones al día. Recorté los tiempos de entrega y despliegues a producción a la mitad. Colaboré con Mozilla y Telefónica para desarrollar la primera app para televisores con FirefoxOS.",
+      "summary": "Desarrollé una plataformas web para la gestión empresarial y la automatización de procesos logrando reducir los tiempos de entrega de los informes de ventas a gerencia a cero (en tiempo real). Fui responsable de la selección de tecnologías, arquitectura y la documentación de proyectos. Además, desarrollé dos métodos de aplicaciones IoT: uno unidireccional con HTTPS y otro bidireccional con MQTT para aplicaciones IoT como el monitoreo de energía y vehículos",
       "highlights": [
         "Started the company"
       ]
@@ -78,15 +57,15 @@
     ]
   }],
   "education": [{
-    "institution": "Universitat Oberta de Catalunya",
-    "url": "https://www.uoc.edu/portal/es/index.html",
-    "area": "Ingeniero de Software",
+    "institution": "Universidad Nacional de Ingeniería",
+    "url": "https://portal.uni.edu.pe/",
+    "area": "Bachiller en ingeniería física",
     "studyType": "Bachelor",
-    "startDate": "2003-01-01",
-    "endDate": "2009-01-01",
-    "score": "4.0",
+    "startDate": "2018-03-01",
+    "endDate": "2023-12-01",
+    "score": "13.7",
     "courses": [
-      "DB1101 - Basic SQL"
+      ""
     ]
   }],
   "awards": [{
@@ -152,10 +131,17 @@
       ]
     },
     {
-      "name": "MySQL",
+      "name": "Postgres SQL",
       "level": "Avanzado",
       "keywords": [
         "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"
+      ]
+    },
+    {
+      "name": "SQLite",
+      "level": "Avanzado",
+      "keywords": [
+        "Bases de Datos", "SQL", "Almacenamiento de Datos", "Archivos"
       ]
     },
     {
@@ -185,6 +171,13 @@
       "keywords": [
         "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
       ]
+    },
+    {
+      "name": "Express",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Backend", "JavaScript Library", "UI"
+      ]
     }
   ],
   "languages": [
@@ -205,71 +198,19 @@
     ]
   }],
   "references": [{
-    "name": "Jane Doe",
-    "reference": "Reference…"
+    "name": "Javier Hernandez",
+    "reference": "He is awesome!"
   }],
   "projects": [
     {
-      "name": "mars.codes",
+      "name": "MMJ Manager",
       "isActive": true,
-      "description": "Historia interactiva con retos de programación para viajar a Marte",
+      "description": "Plataforma de gestión interna de la empresa MMJ Smart Electronics. Permite la gestión de ventas, inventario, y la automatización de procesos.",
       "highlights": [
-        "Elige tu propia aventura",
-        "En desarrollo"
+        "Privado",
+        "Pagado"
       ],
-      "url": "https://mars.codes"
-    },
-    {
-      "name": "AdventJS",
-      "isActive": true,
-      "description": "Retos de programación en JavaScript para cada día de diciembre hasta Navidad",
-      "highlights": [
-        "+1 millón de visitas",
-        "Multidioma",
-        "JavaScript & TypeScript"
-      ],
-      "url": "https://adventjs.dev"
-    },
-    {
-      "name": "Codember",
-      "isActive": true,
-      "description": "Juego interactivo de programación con retos y secretos",
-      "highlights": [
-        "+2000 usuarios activos",
-        "Retos para cualquier lenguaje"
-      ],
-      "url": "https://codember.dev"
-    },
-    {
-      "name": "codi.link",
-      "isActive": true,
-      "description": "Playground de código HTML, CSS y JavaScript para compartir",
-      "highlights": [
-        "100k visitas al mes",
-        "Desarrollado por la comunidad"
-      ],
-      "url": "https://codi.link",
-      "github": "https://github.com/midudev/codi.link"
-    },
-    {
-      "name": "Pruebas Técnicas",
-      "isActive": true,
-      "description": "Lista de pruebas técnicas de empresas para practicar programación",
-      "highlights": [
-        "100% gratuito",
-        "+500 soluciones de la comunidad"
-      ],
-      "url": "https://pruebastecnicas.com",
-      "github": "https://github.com/midudev/pruebas-tecnicas"
-    },
-    {
-      "name": "miduConf",
-      "description": "Conferencia de programación en streaming para la comunidad hispanohablante con charlas top",
-      "highlights": [
-        "+15k tickets repartidos",
-        "+50k espectadores en directo"
-      ],
-      "url": "https://miduconf.com"
+      "url": "https://mmj-front-manager-production.up.railway.app/dashboard"
     }
   ]
 }
