@@ -211,6 +211,16 @@
         "Pagado"
       ],
       "url": "https://mmj-front-manager-production.up.railway.app/dashboard"
+    },
+    {
+      "name": "Oceana Peru - ONG",
+      "isActive": true,
+      "description": "Landing page de alto rendimiento para la ONG Océana Perú como remplazo al linktree por defecto que usan en su instagram.",
+      "highlights": [
+        "Publico",
+        "Voluntario"
+      ],
+      "url": "https://oceana-peru.vercel.app/"
     }
   ]
 }
